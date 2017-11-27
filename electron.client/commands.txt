@@ -18,4 +18,7 @@ We suggest that you begin by typing:
   cd electron.client
   npm start
 
+Electron install command
+sudo npm install -g electron --unsafe-perm=true --allow-root
+
 Happy hacking!
