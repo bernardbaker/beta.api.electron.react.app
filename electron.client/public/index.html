@@ -20,6 +20,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <!-- <script src="%PUBLIC_URL%/javascript/d3.v3.min.js"></script> -->
+    <script src="%PUBLIC_URL%/javascript/d3.v4.min.js"></script>
+    <script>
+		if(window.require) {
+			window.d3 = require("d3");
+		}
+    </script>
   </head>
   <body>
     <noscript>
